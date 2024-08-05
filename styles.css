@@ -10,23 +10,6 @@ body {
     overflow: hidden;
 }
 
-.header {
-    text-align: center;
-    margin: auto;
-    flex: 1;
-}
-
-.image {
-    text-align: center;
-    margin: auto;
-    flex: 1;
-}
-
-.image img {
-    max-width: 100%;
-    height: auto;
-}
-
 .sidebar {
     position: relative;
     transition: transform 0.3s ease;
@@ -81,31 +64,36 @@ body {
     flex: 1;
     overflow-y: auto;
     transition: margin-left 0.3s ease;
-    margin-left: 200px;
+    margin-left: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 20px;
 }
-
 
 .scroll-list {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 600px;
 }
 
 .list-item {
     text-align: center;
     margin: 20px 0;
+    width: 100%;
 }
 
 .list-item img {
     max-width: 100%;
+    width: 100%;
     height: auto;
+    margin: 0;
 }
 
 .list-item p {
-    margin-bottom: 10px;
-    font-size: 24px;
+    margin-top: 10px;
+    font-size: 18px;
     font-weight: bold;
 }
