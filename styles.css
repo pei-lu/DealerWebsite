@@ -97,3 +97,16 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
+
+.page-title{
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.page-title p {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color:black;
+}
